@@ -44,4 +44,6 @@ Sample file showing how to use variable overrides in SASS with webassets.
 
 ## Note
 
-If you mess with teh config options you need to clear the webassets cache (or just disable caching altogether)
+If you mess with the config options you need to clear the webassets cache (or just disable caching altogether)
+
+    webassets -c webassets.yaml clean
