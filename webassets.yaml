@@ -1,0 +1,14 @@
+directory: .
+
+bundles:
+
+    bundle1:
+        output: out.css
+        filters: scss,cssutils
+
+        config:
+            SASS_AS_OUTPUT: true
+
+        contents:
+            - 1.scss
+            - 2.scss

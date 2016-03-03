@@ -1,0 +1,5 @@
+$foo: foo !default;
+
+.test {
+    background-color: $foo;
+}
